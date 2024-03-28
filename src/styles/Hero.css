@@ -1,0 +1,126 @@
+.hero-container{
+  margin-left: 10px;
+  width: 518.453px;
+  min-height: 100vh;
+  padding: 32px;
+  display: flex;
+}
+.hero-content{
+  margin-top: 80px;
+  width: 454.453px;
+  height: 111.188px;
+
+}
+.hero-content > h1 {
+  margin-top: 100px;
+  display: inline-block;
+  border-bottom: 20px solid #4299e1;
+}
+.hero-role{
+  position: relative;
+  display: block;
+  color: #4299e1;
+  line-height: 57.6px;
+}
+.hero-content h1, .hero-role{
+  font-weight: 700;
+  font-size: 48px;
+}
+.hero-description{
+  margin: 20px;
+  margin-left: 0;
+  display: block;
+  color: #718096;
+  font-size: 18px;
+}
+.hero-imagen{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  position: absolute;
+  height: 692px;
+  width: 796px;
+  top: 3%;
+  right: 0; 
+  left: 540px;
+  /* margin-left: 450px; */
+}
+.hero-imagen > img{
+display: block;
+margin: auto;
+  width: 400px;
+  height: 400px;
+  max-width: 100%;
+  min-width: auto;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.hero-button{
+  background-color: #4299e1;
+  border-radius: 999px;
+  border: 0px solid #e2e8f0;
+  color: #fff;
+  height: 40px;
+  padding: 0 16px 0 16px;
+  width: 130.609px;
+  /* min-height: auto; */
+  min-width: 40px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.hero-button:hover{
+  background-color: #3275ac;
+}
+.hero-icon-link{
+  display: inline;
+  color: #696969;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 10px;
+}
+.github-icon:hover{
+  color: #000;
+  transform: scale(1.5);
+  transition: all .5s;
+}
+.linkedin-icon:hover{
+  color: #0477b3;
+  transform: scale(1.5);
+  transition: all .5s;
+}
+.email-icon:hover {
+  color: #d93025;
+  transform: scale(1.5);
+  transition: all .5s;
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    height: 457.781px;
+    width: 467px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-content {
+    height: auto;
+    margin: 0;
+    width: 403px;
+    max-width: 100%;
+  }
+
+  .hero-imagen {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-top: -150px;
+  }
+
+  .hero-imagen > img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
