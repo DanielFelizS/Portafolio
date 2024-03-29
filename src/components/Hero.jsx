@@ -9,6 +9,11 @@ import { useTranslation } from "react-i18next";
 export default function Hero ({currentLanguage})  {
 
     const { t } = useTranslation();
+    const CV = 'https://drive.google.com/file/d/1t_snMA19kJX-bxGilR9KRgQP07pjUEiE/view?usp=sharing';
+
+    const DownloadCV = () => {
+      window.open(CV, '_blank');
+    };
   return (
     <>
     <div className="hero-container" id="about-me">
@@ -19,7 +24,7 @@ export default function Hero ({currentLanguage})  {
     {currentLanguage === 'en' ? t('Hero.Description') : t('Hero.Descripcion')}
     </p>
     <div className="button-container">
-      <button className="hero-button">
+      <button className="hero-button" onClick={DownloadCV}>
       {currentLanguage === 'en' ? t('Hero.btnCV') : t('Hero.btnCvEs')}
       </button>
       <a href="https://github.com/DanielFelizS" target="_blank" className="hero-icon-link">
