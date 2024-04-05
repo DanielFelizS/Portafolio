@@ -81,11 +81,11 @@ const Skills = ({currentLanguage}) => {
     {
       imgUrl: "/img/Azure.png",
       imgAlt: "Microsoft Azure"
-    },
-    {
-      imgUrl: "/img/Angular.png",
-      imgAlt: "Angular 17"
     }
+    // {
+    //   imgUrl: "/img/Angular.png",
+    //   imgAlt: "Angular 17"
+    // }
   ];
 
   return (
