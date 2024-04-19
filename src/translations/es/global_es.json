@@ -29,9 +29,8 @@
     },
     "Contacto" : {
         "Title": "Contáctame",
-        "Name": "Nombre",
-        "Email" : "Correo Electrónico",
-        "Message" : "Comentario",
+        "Subject": "Asunto",
+        "Message" : "Cuerpo",
         "Submit": "Enviar"
     }
 }

@@ -29,9 +29,8 @@
     },
     "Contact" : {
         "Title": "Contact me",
-        "Name": "Name",
-        "Email" : "Email",
-        "Message" : "Message",
+        "Subject": "Subject",
+        "Message" : "Body",
         "Submit": "Submit"
     }
 }
