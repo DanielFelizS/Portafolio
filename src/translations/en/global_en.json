@@ -18,6 +18,7 @@
     "Projects": {
         "Heading": "My projects",
         "subHeading": "",
+        "Description": "It's an inventory system of sells with the entities Employees, Clients, Products and Sells. In the Front-end I used React js with useReducer and in the Back-end I implemented the Repository Pattern and other goods practices.",
         "Description1": "It's the fronted of an inventory system that registers enterprise devices according to serial no., proprietary of device and department that they belong.",
         "Description2": "It's the API REST of inventory. In this project, I learned to use ASP.NET Core to create the web API. I created an user authentication using JWT",
         "Description3": "It's a website about a bakery. It is created with React.js using React js.",

@@ -9,6 +9,13 @@ export default function Projects ({currentLanguage}) {
     const { t } = useTranslation();
     const projects = [
         {
+          img: "/img/Sistema_de_inventario.png",
+          heading: "Sistema de Inventario",
+          description: `${currentLanguage === 'en' ? t('Projects.Description') : t('Proyectos.Descripcion')}`,
+          icons: [<DiReact className="react-icon"/>, <DiBootstrap className="icon-purple"/>, <SiReactrouter className="router-icon"/>, <SiDotnet className="icon-purple"/>, <SiMicrosoftsqlserver className="sql-icon"/>],
+          href: "https://github.com/DanielFelizS/InventarioVentas"
+        },
+        {
           img: "/img/Inventario.png",
           heading: "Inventario Frontend",
           description: `${currentLanguage === 'en' ? t('Projects.Description1') : t('Proyectos.Descripcion1')}`,
