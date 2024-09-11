@@ -25,9 +25,9 @@
         "Description4": "It's a website about a bakery. It is created with React.js using React js.",
         "Description5": "An clon of instagram's homepage.",
         "Description6": "This project was created consuming the POKEAPI. In this project you can search for Pokémon by their ID or Name and you can consult the first 151 Pokémon the Kanto region.",
-        "Description7": "My own API REST about products. This was my first project in ASP.NET Core",
-        "Description8": "An application by console of an basic CRUD about peoples where I used OOP for keep the information in arrays.",
-        "Description9": "An shopping cart created with JavaScript using the localStorage and the DOM.",
+        "Description7": "An shopping cart created with JavaScript using the localStorage and the DOM.",
+        "Description8": "My own API REST about products. This was my first project in ASP.NET Core",
+        "Description9": "An application by console of an basic CRUD about peoples where I used OOP for keep the information in arrays.",
         "LinkProject": "See project"
     },
     "Contact" : {

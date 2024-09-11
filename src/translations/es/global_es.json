@@ -25,9 +25,9 @@
         "Descripcion4": "Es un sitio web de una panadería creado con React js.",
         "Descripcion5": "Un clon de la página de inicio de instagram.",
         "Descripcion6": "Es una pokédex consumiendo la POKEAPI. En ella puedes buscar el pokemon por el ID o el nombre y puedes consultar los primeros 151 pokémons de la región de Kanto.",
-        "Descripcion7": "Mi propia API REST sobre productos. Este proyecto fue el primero que hice en ASP.NET Core.",
-        "Descripcion8": "Una aplicación por consola de un CRUD básico de personas donde usé la POO para guardar la información en arreglos.",
-        "Descripcion9": "Un carrito de compras básico realizado con JavaScript utilizando el localStorage y el DOM.",
+        "Descripcion7": "Un carrito de compras básico realizado con JavaScript utilizando el localStorage y el DOM.",
+        "Descripcion8": "Mi propia API REST sobre productos. Este proyecto fue el primero que hice en ASP.NET Core.",
+        "Descripcion9": "Una aplicación por consola de un CRUD básico de personas donde usé la POO para guardar la información en arreglos.",
         "LinkProyecto": "Ver Proyecto"
     },
     "Contacto" : {
