@@ -18,14 +18,16 @@
     "Proyectos": {
         "Encabezado": "Mis Proyectos",
         "subHeading": "",
+        "Descripcion": "Un sistema de inventario de ventas con las entidiades de Empleados, Clientes, Ventas y Productos. En el Front-end utilicé React js con useReducer y en el Back-end implementé el patrón repositorio y otras buenas prácticas.",
         "Descripcion1": "Es el front-end de un sistema de inventario que registra los dispositvos de la empresa según su no. de serie, el propietario del dispositivo y el departamento al que pertenece.",
         "Descripcion2": "Es la API REST del inventario de dispositivos. Lo he creado con ASP.NET Core y usé una autenticación de usuarios con JWT.",
-        "Descripcion3": "Es un sitio web de una panadería creado con React js.",
-        "Descripcion4": "Un clon de la página de inicio de instagram.",
-        "Descripcion5": "Es una pokédex consumiendo la POKEAPI. En ella puedes buscar el pokemon por el ID o el nombre y puedes consultar los primeros 151 pokémons de la región de Kanto.",
-        "Descripcion6": "Mi propia API REST sobre productos. Este proyecto fue el primero que hice en ASP.NET Core.",
-        "Descripcion7": "Una aplicación por consola de un CRUD básico de personas donde usé la POO para guardar la información en arreglos.",
-        "Descripcion": "Un sistema de inventario de ventas con las entidiades de Empleados, Clientes, Ventas y Productos. En el Front-end utilicé React js con useReducer y en el Back-end implementé el patrón repositorio y otras buenas prácticas.",
+        "Descripcion3": "Una aplicación que consume la API de Dragon Ball donde utilicé Redux para agregar tus personajes favoritos de la serie y filtrar por varios parámetros.",
+        "Descripcion4": "Es un sitio web de una panadería creado con React js.",
+        "Descripcion5": "Un clon de la página de inicio de instagram.",
+        "Descripcion6": "Es una pokédex consumiendo la POKEAPI. En ella puedes buscar el pokemon por el ID o el nombre y puedes consultar los primeros 151 pokémons de la región de Kanto.",
+        "Descripcion7": "Mi propia API REST sobre productos. Este proyecto fue el primero que hice en ASP.NET Core.",
+        "Descripcion8": "Una aplicación por consola de un CRUD básico de personas donde usé la POO para guardar la información en arreglos.",
+        "Descripcion9": "Un carrito de compras básico realizado con JavaScript utilizando el localStorage y el DOM.",
         "LinkProyecto": "Ver Proyecto"
     },
     "Contacto" : {
