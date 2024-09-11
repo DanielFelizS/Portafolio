@@ -59,25 +59,25 @@ export default function Projects ({currentLanguage}) {
           href: "https://danielfelizs.github.io/Pok-dex/"
         },
         {
+          img: "/img/shoppingCart.jpg",
+          heading: "Carrito de compras",
+          description: `${currentLanguage === 'en' ? t('Projects.Description7') : t('Proyectos.Descripcion7')}`,
+          icons: [<RiJavascriptFill className="js-icon"/>],
+          href: "https://carrito-compras-ochre.vercel.app/"
+        },
+        {
           img: "/img/API.png",
           heading: "API de productos",
-          description: `${currentLanguage === 'en' ? t('Projects.Description7') : t('Proyectos.Descripcion7')}`,
+          description: `${currentLanguage === 'en' ? t('Projects.Description8') : t('Proyectos.Descripcion8')}`,
           icons: [<SiDotnet className="icon-purple"/>, <SiMicrosoftsqlserver className="sql-icon"/>],
           href: "https://github.com/DanielFelizS/Inventario_API"
         },
         {
           img: "/img/Person.png",
           heading: "CRUD Arrays",
-          description: `${currentLanguage === 'en' ? t('Projects.Description8') : t('Proyectos.Descripcion8')}`,
+          description: `${currentLanguage === 'en' ? t('Projects.Description9') : t('Proyectos.Descripcion9')}`,
           icons: [<SiDotnet className="icon-purple"/>],
           href: "https://github.com/DanielFelizS/CRUD_Arreglos-"
-        },
-        {
-          img: "/img/shoppingCart.jpg",
-          heading: "Carrito de compras",
-          description: `${currentLanguage === 'en' ? t('Projects.Description9') : t('Proyectos.Descripcion9')}`,
-          icons: [<RiJavascriptFill className="js-icon"/>],
-          href: "https://carrito-compras-ochre.vercel.app/"
         }
       ];
     return (
