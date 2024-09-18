@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <>
+      <Analytics/>
       <Navbar currentLanguage={currentLanguage} handleChangeLanguage={handleChangeLanguage}/>
       <Hero currentLanguage={currentLanguage}/>
       <Skills currentLanguage={currentLanguage}/>
