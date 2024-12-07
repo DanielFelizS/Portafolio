@@ -10,7 +10,7 @@ import { useTranslation } from "react-i18next";
 export default function Hero ({currentLanguage})  {
 
     const { t } = useTranslation();
-    const CV = 'https://drive.google.com/file/d/1t_snMA19kJX-bxGilR9KRgQP07pjUEiE/view?usp=sharing';
+    const CV = 'https://drive.google.com/file/d/17vUUWRoOvXggWuiNUNOsebViTqu_Svw4/view?usp=sharing';
 
     const DownloadCV = () => {
       window.open(CV, '_blank');
@@ -44,9 +44,10 @@ export default function Hero ({currentLanguage})  {
     </div>
   </div>
   </div>
-  <div className="hero-imagen">
+  <picture className="hero-imagen">
+    <source srcSet="/img/Daniel_Feliz.jpeg" media="(width < 700px)"/>
     <img src="/img/Daniel_Feliz.jpeg" alt="Daniel Feliz" className="hero-image" />
-  </div>
+  </picture>
 
   </>
   )
