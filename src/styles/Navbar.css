@@ -48,7 +48,7 @@ nav button{
 @media (max-width: 768px) {
     nav ul {
         justify-content: flex-start;
-        margin-left: -180px;
+        margin-left: -150px;
     }
   
     nav li {

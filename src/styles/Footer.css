@@ -24,3 +24,16 @@
     padding-top: 20px;
     border-top: 1px solid #777;
 }
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 5px;
+        margin:0;
+    }
+    .footer-content{
+        margin-left:-20px;
+    }
+    .footer-section {
+        margin-left: 30px;
+    } 
+}
