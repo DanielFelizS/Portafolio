@@ -29,18 +29,20 @@ export default function Hero ({currentLanguage})  {
       <button className="hero-button" onClick={DownloadCV}>
       {currentLanguage === 'en' ? t('Hero.btnCV') : t('Hero.btnCvEs')}
       </button>
-      <a href="https://github.com/DanielFelizS" target="_blank" className="hero-icon-link">
-        <BsGithub className="hero-icon github-icon" />
-      </a>
-      <a href="https://www.youtube.com/channel/UCyzzGyR9DKHmw8C3C0f3mRw" target="_blank" className="hero-icon-link">
-        <FaYoutube className="hero-icon red-icon"/>
-      </a>
-      <a href="https://www.linkedin.com/in/daniel-f%C3%A9liz/" target="_blank" className="hero-icon-link">
-        <FaLinkedin className="hero-icon linkedin-icon" />
-      </a>
-      <a href="mailto:felizsdaniel0@gmail.com" target="_blank" className="hero-icon-link">
-        <MdEmail className="hero-icon red-icon" />
-      </a>
+      <div className="hero-icon-link">
+          <a href="https://github.com/DanielFelizS" target="_blank">
+            <BsGithub className="hero-icon github-icon" />
+          </a>
+          <a href="https://www.youtube.com/channel/UCyzzGyR9DKHmw8C3C0f3mRw" target="_blank">
+            <FaYoutube className="hero-icon red-icon"/>
+          </a>
+          <a href="https://www.linkedin.com/in/daniel-f%C3%A9liz/" target="_blank">
+            <FaLinkedin className="hero-icon linkedin-icon" />
+          </a>
+          <a href="mailto:felizsdaniel0@gmail.com" target="_blank">
+            <MdEmail className="hero-icon red-icon" />
+          </a>
+      </div>
     </div>
   </div>
   </div>

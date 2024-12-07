@@ -66,16 +66,21 @@ margin: auto;
   min-width: 40px;
   font-size: 16px;
   font-weight: 600;
+
 }
 .hero-button:hover{
   background-color: #3275ac;
 }
 .hero-icon-link{
-  display: inline;
-  color: #696969;
-  font-size: 25px;
-  cursor: pointer;
-  margin: 10px;
+    margin-top: -35px;
+    margin-left: 130px;
+}
+.hero-icon-link > a {
+    display: inline;
+    color: #696969;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 10px;
 }
 .github-icon:hover{
   color: #000;
@@ -113,7 +118,7 @@ margin: auto;
         width: 250px;
         height: auto;
         border-radius: 250px;
-        margin-top: -80px;
+        margin-top: -40px;
         margin-left: 60px;
         margin-bottom: 100px;
     }
@@ -125,4 +130,15 @@ margin: auto;
     max-width: 400px;
     margin: 0 auto;
   }
+
+  .hero-icon-link {
+    margin-top: 25px;
+    margin-left: 0;
+  }
+  .hero-button {
+      margin-left: 50px;
+  }
+
+    
+    
 }
