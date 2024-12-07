@@ -47,15 +47,17 @@ nav button{
 
 @media (max-width: 768px) {
     nav ul {
-      justify-content: flex-start; 
+        justify-content: flex-start;
+        margin-left: -180px;
     }
   
     nav li {
-      margin: 10px 5px; 
+      margin: 0;
+      padding: 0;
     }
   
     nav button {
-      margin-left: 400px; 
-      margin-top: 200px;
+      margin-left: -10px; 
+      margin-top: 100px;
     }
   }
