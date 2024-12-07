@@ -95,25 +95,28 @@ margin: auto;
 
 @media (max-width: 768px) {
   .hero-container {
-    height: 457.781px;
-    width: 467px;
+    height: 400px;
+    width: 450px;
     flex-direction: column;
     align-items: center;
   }
 
   .hero-content {
     height: auto;
-    margin: 0;
-    width: 403px;
+    width: 325px;
     max-width: 100%;
+    margin-left: -150px;
   }
 
-  .hero-imagen {
-    position: static;
-    width: 250px;
-    height: auto;
-    margin-top: -150px;
-  }
+    .hero-imagen {
+        position: static;
+        width: 250px;
+        height: auto;
+        border-radius: 250px;
+        margin-top: -80px;
+        margin-left: 60px;
+        margin-bottom: 100px;
+    }
 
   .hero-imagen > img {
     display: block;
