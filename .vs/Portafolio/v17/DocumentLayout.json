@@ -3,10 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\Danie\\Desktop\\PROGRAMACION\\Portafolio\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Danie\\Desktop\\PROGRAMACION\\Portafolio\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
+=======
+>>>>>>> 861e5280719aa183532f10232261e81b569cd445
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Danie\\Desktop\\PROGRAMACION\\Portafolio\\src\\styles\\Hero.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\Hero.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -47,6 +50,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Danie\\Desktop\\PROGRAMACION\\Portafolio\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -60,25 +64,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+=======
+>>>>>>> 861e5280719aa183532f10232261e81b569cd445
               "Title": "Hero.css",
               "DocumentMoniker": "C:\\Users\\Danie\\Desktop\\PROGRAMACION\\Portafolio\\src\\styles\\Hero.css",
               "RelativeDocumentMoniker": "src\\styles\\Hero.css",
               "ToolTip": "C:\\Users\\Danie\\Desktop\\PROGRAMACION\\Portafolio\\src\\styles\\Hero.css",
               "RelativeToolTip": "src\\styles\\Hero.css",
+<<<<<<< HEAD
               "ViewState": "AgIAAHgAAAAAAAAAAAAqwIcAAAASAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAHgAAAAAAAAAAAAqwIoAAAAUAAAAAAAAAA==",
+>>>>>>> 861e5280719aa183532f10232261e81b569cd445
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-12-07T15:32:25.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 1,
+>>>>>>> 861e5280719aa183532f10232261e81b569cd445
               "Title": "Hero.jsx",
               "DocumentMoniker": "C:\\Users\\Danie\\Desktop\\PROGRAMACION\\Portafolio\\src\\components\\Hero.jsx",
               "RelativeDocumentMoniker": "src\\components\\Hero.jsx",
               "ToolTip": "C:\\Users\\Danie\\Desktop\\PROGRAMACION\\Portafolio\\src\\components\\Hero.jsx",
               "RelativeToolTip": "src\\components\\Hero.jsx",
+<<<<<<< HEAD
               "ViewState": "AgIAABYAAAAAAAAAAAAuwCAAAAAuAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwB8AAAAkAAAAAAAAAA==",
+>>>>>>> 861e5280719aa183532f10232261e81b569cd445
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-12-07T15:32:21.518Z",
               "EditorCaption": ""

@@ -5,6 +5,10 @@
     "\\src\\components",
     "\\src\\styles"
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\.gitignore",
+=======
+  "SelectedNode": "\\src\\components\\Projects.jsx",
+>>>>>>> 861e5280719aa183532f10232261e81b569cd445
   "PreviewInSolutionExplorer": false
 }
