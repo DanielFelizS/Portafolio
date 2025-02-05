@@ -25,57 +25,64 @@ export default function Projects ({currentLanguage}) {
         },
         {
           img: "/img/API.png",
-          heading: "Inventario (API)",
+          heading: "Agendamiento de citas con Excel",
           description: `${currentLanguage === 'en' ? t('Projects.Description2') : t('Proyectos.Descripcion2')}`,
+          icons: [<SiDotnet className="icon-purple"/>],
+          href: "https://github.com/DanielFelizS/ApiAgendaExcel"
+        },
+        {
+          img: "/img/API.png",
+          heading: "Inventario (API)",
+          description: `${currentLanguage === 'en' ? t('Projects.Description3') : t('Proyectos.Descripcion3')}`,
           icons: [<SiDotnet className="icon-purple"/>, <SiMicrosoftsqlserver className="sql-icon"/>],
           href: "https://github.com/DanielFelizS/Inventario_API"
         },
         {
           img: "/img/dragonBall.png",
           heading: "Dragon Ball API",
-          description: `${currentLanguage === 'en' ? t('Projects.Description3') : t('Proyectos.Descripcion3')}`,
+          description: `${currentLanguage === 'en' ? t('Projects.Description4') : t('Proyectos.Descripcion4')}`,
           icons: [<DiReact className="react-icon"/>, <BiLogoRedux  className="icon-purple"/>],
           href: "https://dragonballapi-eta.vercel.app/"
         },
         {
           img: "/img/Panaderia_Felíz.png",
           heading: "Panadería Féliz",
-          description: `${currentLanguage === 'en' ? t('Projects.Description4') : t('Proyectos.Descripcion4')}`,
+          description: `${currentLanguage === 'en' ? t('Projects.Description5') : t('Proyectos.Descripcion6')}`,
           icons: [<DiReact className="react-icon"/>, <SiReactrouter className="router-icon"/>],
           href: "https://github.com/DanielFelizS/Panaderia"
         },
         {
           img: "/img/Instagram.png",
           heading: "Instagram clon",
-          description: `${currentLanguage === 'en' ? t('Projects.Description5') : t('Proyectos.Descripcion5')}`,
+          description: `${currentLanguage === 'en' ? t('Projects.Description6') : t('Proyectos.Descripcion6')}`,
           icons: [<DiReact className="react-icon"/>],
           href: "https://main--roaring-axolotl-bf51f2.netlify.app/"
         },
         {
           img: "/img/Pokeball.png",
           heading: "Pokédex",
-          description: `${currentLanguage === 'en' ? t('Projects.Description6') : t('Proyectos.Descripcion6')}`,
+          description: `${currentLanguage === 'en' ? t('Projects.Description7') : t('Proyectos.Descripcion7')}`,
           icons: [<RiJavascriptFill className="js-icon"/>],
           href: "https://danielfelizs.github.io/Pok-dex/"
         },
         {
           img: "/img/shoppingCart.jpg",
           heading: "Carrito de compras",
-          description: `${currentLanguage === 'en' ? t('Projects.Description7') : t('Proyectos.Descripcion7')}`,
+          description: `${currentLanguage === 'en' ? t('Projects.Description8') : t('Proyectos.Descripcion8')}`,
           icons: [<RiJavascriptFill className="js-icon"/>],
           href: "https://carrito-compras-ochre.vercel.app/"
         },
         {
           img: "/img/API.png",
           heading: "API de productos",
-          description: `${currentLanguage === 'en' ? t('Projects.Description8') : t('Proyectos.Descripcion8')}`,
+          description: `${currentLanguage === 'en' ? t('Projects.Description9') : t('Proyectos.Descripcion9')}`,
           icons: [<SiDotnet className="icon-purple"/>, <SiMicrosoftsqlserver className="sql-icon"/>],
           href: "https://github.com/DanielFelizS/Inventario_API"
         },
         {
           img: "/img/Person.png",
           heading: "CRUD Arrays",
-          description: `${currentLanguage === 'en' ? t('Projects.Description9') : t('Proyectos.Descripcion9')}`,
+          description: `${currentLanguage === 'en' ? t('Projects.Description10') : t('Proyectos.Descripcion10')}`,
           icons: [<SiDotnet className="icon-purple"/>],
           href: "https://github.com/DanielFelizS/CRUD_Arreglos-"
         }

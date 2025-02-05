@@ -10,7 +10,6 @@ const Footer = ({ currentLanguage }) => {
         <div className="footer-section contact">
           <h3>Contact me</h3>
           <p>Email: felizsdaniel0@gmail.com</p>
-          <p>Teléfono: 123-4567-891</p>
         </div>
         <div className="footer-section links">
           <h3>Useful links</h3>
